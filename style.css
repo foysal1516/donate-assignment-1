@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}   
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    padding-top: 200px;
+
+}
+h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+p{
+    font-size: 16px;
+}
+/* banner section style start */
+
+.top-section{
+    height: 600px;
+    background-image: url(img/help-4.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+}
+.banner-desc{
+    text-align: center;
+}
+
+.heading-text{
+    text-align: center;
+}
+.help{
+    font-weight: 900;
+    font-size: 60px;
+}
+.help-details{
+    color: white;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.download-btn{
+    background: #FF5959;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+/* banner section style end */
+.donate-section{
+    text-align: center;
+    margin-top:100px ;
+}
+.donate-details{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.price-section{
+    margin: 50px 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin-right: 50px;
+    background: #FAFAFA;
+    padding: 30px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#uniqe-tk{
+    border: 3px solid #FF5959;
+    background: #FFEEEE;
+    border-radius: 5px;
+}
+
+.donate-filed{
+    text-align: center;
+}
+.donate-filed input{
+    width: 700px;
+    padding: 10px 100px;
+    border: none;
+    margin:50px 0px 20px;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    text-align: center;
+}
+/* hr{
+    width: 600px;
+    padding: 1px;
+    background: gray;
+} */
+.planing-section{
+    text-align: center;
+}
+.plan-heading-text{
+    color: black;
+    padding: 43px 0px 0px;
+}
+.cetagories{
+    margin: 80px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.planing-cetagorie{
+    width: 300px;
+    height: 250px;
+    padding: 20px 20px;
+}
+#cetagorie-1{
+    background: #c5dfe2;
+}
+#cetagorie-2{
+    background: rgb(247, 209, 204);
+}
+#cetagorie-3{
+    background: rgb(230, 225, 218);
+}
+
+.volunteer-bg{
+    background-image: url(img/hands_bg.png);
+    background-repeat: no-repeat;
+    background-position:  bottom center;
+    background-size: contain;
+    padding: 50px 0 150px;
+}
+.volunteer-heading{
+    width: 75%;
+    margin: 0 auto
+}
+.bg-green {
+    background: #d9e7db;
+}
+.volunteer-heading h2{
+    color: #d59b2d;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 50px 0;
+}
+.main-volunteer{
+    width: 80%;
+   display: flex;
+   justify-content: space-around;
+   margin: 0 auto;
+}
+.volunteer{
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 20px;
+    width: 174px;
+
+}
+.volunteer-img{
+    width: 174px;
+    height: 174px;
+    margin: 0 auto;
+}
+.volunteer-img img{
+    border-radius: 50%;
+    border: 9px solid rgb(241, 225, 225);
+}
+.volunteers-info{
+    margin-top: 30px;
+}
+.volunteers-info h3{
+    color: #d59b2d;
+    font-weight: 800;
+    font-size: 23px;
+    margin: 0;
+}
+.volunteers-info p{
+    margin: 0;
+    font-size: 16px;
+}
+.read-more{
+    float: right;
+   margin-top: 20px;
+   font-size: 16px;
+   color: #4a4a4a;
+}
+
+.updates{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sbscribe-feild{
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 100px 150px;
+    background: rgb(240, 207, 147);
+}
+.sbscribe-feild > input,button{
+    outline: 0;
+    border: 0px;
+    padding: 10px 60px;
+}
+.sbscribe-feild > input{
+    background: rgb(230, 219, 219);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.sbscribe-feild > button{
+    margin-left: -6px;
+    background: #FF5959;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+}
+footer{
+    background: black;
+    padding: 30px 0px;
+}
+.footer-area{
+    text-align: center;
+    color: white;
+}
+.footer-area > h3{
+    font-size: 30px;
+    color: #FF5959;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
